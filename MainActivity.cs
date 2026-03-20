@@ -1,6 +1,7 @@
 ﻿using Android.App;
 using Android.OS;
 using Android.Runtime;
+using Android.Widget;
 using AndroidX.AppCompat.App;
 using System;
 
@@ -22,6 +23,10 @@ namespace GithubMorning
 		private void InitializeViews()
 		{
 			//If you want to initialize your views, you can do it here. For example:
+            Button btn = FindViewById<Button>(Resource.Id.myButton);
+
+
+
 			throw new NotImplementedException();
 		}
 
