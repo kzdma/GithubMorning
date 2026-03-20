@@ -27,9 +27,8 @@ namespace GithubMorning
 		private void InitializeViews()
 		{
 			//Initialize views here
-
+			
 			//Commit A
-			//Commit B
 		}
 	}
 }
