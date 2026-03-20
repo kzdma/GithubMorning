@@ -11,24 +11,14 @@ using System.Text;
 
 namespace GithubMorning
 {
-	[Activity(Label = "SignInActivity")]
-	public class SignInActivity : Activity
+	[Activity(Label = "SignUpActivity")]
+	public class SignUpActivity : Activity
 	{
 		protected override void OnCreate(Bundle savedInstanceState)
 		{
 			base.OnCreate(savedInstanceState);
 
 			// Create your application here
-			//Hello from SignInActivity
-
-			InitializeViews();
-		}
-
-		private void InitializeViews()
-		{
-			//Initialize views here
-			
-			//Commit A
 		}
 	}
 }
