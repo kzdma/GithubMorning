@@ -2,6 +2,7 @@
 using Android.OS;
 using Android.Runtime;
 using AndroidX.AppCompat.App;
+using System;
 
 namespace GithubMorning
 {
@@ -14,8 +15,17 @@ namespace GithubMorning
             Xamarin.Essentials.Platform.Init(this, savedInstanceState);
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
+
+            InitializeViews();
         }
-        public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
+
+		private void InitializeViews()
+		{
+			//If you want to initialize your views, you can do it here. For example:
+			throw new NotImplementedException();
+		}
+
+		public override void OnRequestPermissionsResult(int requestCode, string[] permissions, [GeneratedEnum] Android.Content.PM.Permission[] grantResults)
         {
             Xamarin.Essentials.Platform.OnRequestPermissionsResult(requestCode, permissions, grantResults);
 
