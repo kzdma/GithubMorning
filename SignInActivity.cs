@@ -30,7 +30,6 @@ namespace GithubMorning
 
 			//Commit A
 			//Commit B
-			//Commit C
 		}
 	}
 }
